@@ -1,0 +1,184 @@
+
+  .nav{ 
+    overflow: hidden; 
+} 
+ul.nav { 
+    display: flex; 
+    list-style-type: none; 
+    margin: 10px; 
+    color: #175919; 
+
+} 
+.nav { 
+    overflow: hidden; 
+   margin-top: 15px; 
+   padding-left: 40px; 
+   padding-right: 90px;  
+
+    
+  } 
+   
+  .nav a { 
+    float: left; 
+    color: #175919; 
+    text-align: center; 
+    text-decoration:none; 
+font-family: 'Source Serif Pro';
+font-style: italic;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+     
+  } 
+   
+  .nav a.nav2 { 
+    float: right; 
+    color: #175919; 
+    font-size: 14px; 
+    padding-right: 30px; 
+    font-family: 'Source Serif Pro';
+  
+  } 
+  .bg-img {
+    display: flex;
+    background-image: url("image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+
+  
+  }
+  
+  
+  /* Add styles to the form container */
+  /* .container {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    height:40vh ;
+    width: 30vw;
+    padding: 30px;
+    background-color: rgb(255, 245, 245);
+    opacity: 0.6;
+    flex-wrap: wrap;
+ 
+
+  } */
+  .container {
+
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+  }
+  .start{
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+      }
+      .date{
+        display: flex;
+      }
+      .data1{
+    gap: 10px;
+    background: rgba(255, 255, 252, 0.7);
+    border-radius: 40px;
+      }
+      .ckeck{
+        display: flex;
+      }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin:0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem 2rem;
+  
+  }
+/*   
+width: 200px;
+font-size: 16px;
+background-color: #F7F8E2;
+border-radius: 40px;
+padding: 1.5rem 2.5rem;
+  .btn:hover {
+    opacity: 1;
+  } */
+  /* .flex{
+
+  } */
+.main-header{
+  color: white;
+  font-size: 40px;
+  width:18ch;
+
+}
+
+.btn1{
+
+width: 200px;
+font-size: 16px;
+background-color: #F7F8E2;
+border-radius: 40px;
+padding: 1.5rem 2.5rem;
+
+
+
+}
+
+.footer{
+  display: flex;
+
+  gap: 5rem;
+  justify-content: center;
+
+}
+h2{
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #175919; 
+}
+.icon {
+  padding: 30px;
+  border-radius:50%;
+  background: rgba(223, 222, 202, 0.7);
+}
+
+h3{
+font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+text-align: center;
+color: #000000;
+margin-left: 0px;
+right: 40px;
+}
