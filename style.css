@@ -1,0 +1,117 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+.navbar > a{
+  color: #175919;
+  font-family: 'Source Serif Pro', serif;  
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+}
+.logo >a{
+    color: #175919;
+    font-family: 'Source Serif Pro', serif;  
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.start{
+    display: flex;
+    background-image: url("backg.png");
+    justify-content: space-around;
+    width: 98vw;
+    height: 500px;
+    align-items: center;
+}
+ 
+.one > h1{
+    color: #F7F8E2;
+    font-family: 'Source Serif Pro', serif;  
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 69px;
+}
+.one > button{
+    background: #F7F8E2;
+    border-radius: 40px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-family: 'Source Serif Pro', serif;  
+    font-size: 18px;
+    color: #3A3C42;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Source Serif Pro', serif;  
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 69px;    
+    text-align: center;
+    color: #175919;   
+}
+.tow{
+    background: rgba(247, 248, 226, 0.7);
+    width: 350px; 
+    height: 350px;
+    text-align: center;
+    color:#3A3C42;;
+}
+.checkboxes{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.firstinput > input{
+    background: rgba(247, 248, 226, 0.7);
+    border: 1px solid #F7F8E2;
+    border-radius: 5px;
+    width: 205px;
+    height: 25px;
+}
+.dateAndTime{
+    display: flex; 
+    justify-content: space-around;
+    text-align: left;
+}
+.fdate > input{
+    background: rgba(247, 248, 226, 0.7);
+    border-radius: 40px;
+    border: none;
+    width: 160px;
+    height: 20px;
+    text-align: center;
+}
+
+.tow > button{
+    background: #175919;
+    border-radius: 40px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: none;
+}
+.services{
+   display: flex; 
+   font-weight: bold;
+   font-family: 'Source Serif Pro', serif;  
+   justify-content: center;
+   column-gap: 2rem;
+   text-align: center;
+}
+.images > img{
+background: rgba(223, 222, 202, 0.7);
+border-radius: 50%;
+height: 40px;
+width: 40px;
+padding: 10px;
+}
+
+
+
+
