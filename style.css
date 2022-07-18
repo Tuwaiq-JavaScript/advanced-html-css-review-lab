@@ -1,0 +1,126 @@
+body, html{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+
+.img{
+    width: 100vw;
+    height: 100vh;
+    background: url(image2.png);
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color:#175919;
+}
+.nav-area{
+    display: flex;
+    color: #175919;
+    justify-content: space-evenly;
+    width: 25vw;
+}
+
+.topnav a {
+    float: right;
+    color:#175919;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  p {
+    background-image: url('image2.png');
+    height: 100%;
+    width: 100%;
+  }
+
+
+form{
+    background: white;
+    opacity: 70%;
+    width: 30vw;
+    height: 70vh;
+}
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 50px;
+    background-color: #F7F8E2B2;
+    ;
+  }
+
+  /* Full-width input fields */
+  input[type=name], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .offering{
+    margin: 0 20rem;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    justify-items: center;
+    align-content:center ;
+    height: 40vh;
+  }
+  .heading{
+    grid-column: 1/5;
+  }
+
+  .icon1, .icon2,.icon3,.icon4{
+    background-color: #DFDECAB2;
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+.btnn{
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
