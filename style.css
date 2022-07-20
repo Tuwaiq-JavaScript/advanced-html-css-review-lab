@@ -1,0 +1,130 @@
+body,html{
+    margin:0
+}
+ul{
+    list-style: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.img{
+    width: 100vw;
+    height: 70vh;
+    background: url(./images//image\ 2.png);
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0 1rem;
+    color:green;
+}
+.logo{
+    font-style: italic;
+}
+.nav-area{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25vw;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    gap: 20rem;
+} 
+.hero-text{
+    color: white;
+    font-size: 40px;
+    width: 20ch;
+    justify-self: flex-end;
+}
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.700);
+    width: 30vw;
+    height: 70vh;
+}
+.form-flex{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;    
+}
+.btn{
+    background-color: white;
+    border-radius: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 1rem 3rem;
+}
+.green{
+    background-color: green;
+    opacity: 100%;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    border-radius: 50px;
+    padding: 0.5rem;
+    background-color: rgb(219, 217, 217);
+    opacity: 70%;
+    color:grey;
+    width: min-content;
+}  
+.input-date,.input-time{
+    background-color: rgb(219, 217, 217);
+    opacity: 70%;
+    border: none;
+    width: 4.5rem;
+}
+.input-time{
+    width: 3rem;
+}
+.input{
+    padding: 1.25rem;
+    background-color: rgb(219, 217, 217);
+    border: none;
+    border-radius: 5px;
+    color: rgb(81, 80, 80);
+    font-size: larger;
+}
+.offering{
+    margin: 0 20rem;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    justify-items: center;
+    align-content: center;
+    height: 40vh;
+}
+.heading{
+    grid-column: 1/5;
+}
+.icon1,.icon2,.icon3,.icon4{
+    background-color: rgb(200, 199, 199);
+    width: 100px;
+    height: 100px;
+	padding: 10px;
+    border-radius: 50%;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+.icon1{
+    background-image: url(./images/discounts.svg) ;
+}
+.icon2{
+    background-image: url(./images/customer.svg) ;
+}
+.icon3{
+    background-image: url(./images/traveling.svg) ;
+}
+.icon4{
+    background-image: url(./images/calender.svg) ;
+}

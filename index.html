@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>today's lab</title>
+  </head>
+  <body>
+    <header class="nav" >
+      <h3 class="logo" >SpecialTravel</h3>
+      <ul class="nav-area" >
+        <li><a href="#" >Home</a></li>
+        <li><a href="#" >Tours</a></li>
+        <li><a href="#" >Services</a></li>
+        <li><a href="#" >Reviews</a></li>
+        <li><a href="#" >Contact</a></li>
+      </ul>
+    </header>
+<!-- ----------------------------------------- -->
+    <section class="img flex">
+        <div>
+            <h1 class="hero-text" >Discover the secrets of the Earth</h1>
+            <button class="btn">Plan your trip</button>
+        </div>
+        <form class="form" >
+            <input class="input" type="text" name="fullname" placeholder="Full name">
+            <input class="input" type="text" name="email" placeholder="E-mail address">
+            <span class="form-flex" >
+                <div>
+                    <label for="start date">departure date</label>
+                    <div id="start date" class="date" >
+                        <img src="/images/s-calender.svg" />
+                        <input value="Mon 05/12" class="input-date" type="text">
+                        |
+                        <img src="/images/clock.svg" />
+                        <input class="input-time" value="10:00" type="text">
+                    </div>
+                </div>
+                <div>
+                    <label for="end date">arrival date</label>
+                    <div id="end date" class="date" >
+                        <img src="/images/s-calender.svg" />
+                        <input value="Mon 05/12" class="input-date" type="text">
+                        |
+                        <img src="/images/clock.svg" />
+                        <input class="input-time" value="10:00" type="text">
+                    </div>
+                </div>
+            </span>
+            <span class="form-flex" >
+                <input id="round" type="checkbox"/>
+                <label for="round">Round trip</label>
+                <input id="one" type="checkbox"/>
+                <label for="one">One way</label>
+                <input id="multi" type="checkbox"/>
+                <label for="multi">multidestination</label>
+            </span>
+        <input class="input" type="text" name="persons" placeholder="how many persons?">
+        <button class="btn green" >Book Now</button>
+        </form>
+    </section>
+    <section class="offering">
+        <h2 class="heading" >We offer our best support</h2>
+        <div class="icon1"></div>
+        <div class="icon2"></div>
+        <div class="icon3"></div>
+        <div class="icon4"></div>
+        <h2>Discounts</p>
+        <h2>Customer service</p>
+        <h2>Customiztion</p>
+        <h2>Management</p>
+    </section>
+  </body>
+</html>
