@@ -1,0 +1,160 @@
+.navbar
+{
+    
+    margin: 10px;
+    margin-top: 30px;
+       
+}
+
+.split
+{
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: row-reverse;
+    color:green;
+    float: right;
+    padding: 1px 16px;
+    
+}
+
+.word
+{
+    margin: 15px;
+    margin-top: -3px;  
+    
+}
+.specail
+{
+    color:green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.greding
+{
+    color: honeydew;
+    padding: 30px;
+    margin-left: 200px;
+    /* position: relative; */
+    margin-top: 60px;
+    position: absolute;
+/* width: 499px;
+height: 140px;
+left: 133px;
+top: 300px; */   
+}
+
+#btn
+{
+    padding: 10px;
+    /* margin-left: 800px; */
+    top: 250px;
+    left: 250px;
+    position: absolute;
+    border-radius: 40px;
+    width: 295px;
+    font-size: large;
+      
+    height: 40px;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 600;
+   
+    line-height: 8px;
+    
+    color: #3A3C42; 
+}
+
+.content{
+    width: 330px; 
+    border-radius: 10px;
+    padding: 200px 30px;
+    margin-top: 50px;
+    margin-left: 800px;
+    box-shadow: -3px -3px 9px #c0e4aba2,
+                3px 3px 7px rgba(199, 212, 174, 0.671);
+                background: rgba(247, 248, 226, 0.7);
+
+ 
+              
+   
+  }
+
+  .content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: rgb(247, 233, 233);
+    left: 30px;
+   
+  }
+
+  .field
+  {
+    position: absolute;
+    display: flex;
+width: 200px;
+height: 50px;
+/* left: calc(50% - 410px/2 + 552px); */
+top: 100px;
+left: 800px;
+margin: 20px;
+flex-direction: column;
+text-align: center;
+
+
+
+
+  }
+
+
+  input[type=text], input[type=password] {
+    width: 150%;
+    padding: 7px;
+    border-radius: 12px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    font-size: 6px;
+    
+  }
+
+
+ 
+ .footer{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    /* justify-items: center; */
+    justify-items: center;
+    color: #175919;
+    margin: 5rem 20rem;
+   
+    
+    
+  }
+  .heading{
+    grid-column: 1/5;
+    margin-bottom: 10px;
+
+  }
+  .icon{
+
+  background-color: bisque;   
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   background-position: center;
+   margin: 0px 15px 0px 15px;
+}
+
+
+
+
+
+ 
+
+  
+
+
+  
+
+
